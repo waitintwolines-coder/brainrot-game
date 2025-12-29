@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  background: #fff7cc;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+#character {
+  width: 80%;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+button {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 16px;
+  font-size: 24px;
+  border-radius: 16px;
+  border: none;
+  background: #ffcc00;
+}

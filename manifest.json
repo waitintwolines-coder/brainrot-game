@@ -1,0 +1,8 @@
+{
+  "name": "ぶれいんろっと げーむ",
+  "short_name": "ぶれろ",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fff7cc",
+  "theme_color": "#ffcc00"
+}
