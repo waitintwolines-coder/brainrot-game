@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ぶれいんろっと げーむ</title>
 
+  <!-- PWA用 -->
   <link rel="manifest" href="manifest.json">
+
+  <!-- スタイル -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,6 +18,14 @@
 
   <div id="choices"></div>
 
+  <!-- Service Worker 登録（★追加部分） -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js");
+    }
+  </script>
+
+  <!-- ゲームロジック -->
   <script src="script.js"></script>
 </body>
 </html>
